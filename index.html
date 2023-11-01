@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    .calculator {
+      width: 300px;
+      background-color: #191B28;
+      margin: 0 auto;
+      border: 1px solid #191B28;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    input[type="text"] {
+      width: 80%;
+      padding: 10px;
+      font-size: 15px;
+      border: 1px solid #191B28;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    
+    .buttons {
+
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 5px;
+    }
+    .C {
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #FC0067;
+      border-radius: 5px;
+      background-color: #FC0067;
+      margin-bottom: 10px;
+    }
+
+    .Equal{
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #FC0067;
+      border-radius: 5px;
+      background-color: #FC0067;
+      margin-bottom: 10px;
+    }
+    
+    .num {
+      color: white;
+      padding: 10px;
+      width: 83px;
+      font-size: 16px;
+      border: 1px solid #191B28;
+      border-radius: 5px;
+      background-color: #65268F;
+      margin-bottom: 10px;
+    }
+    .equa {
+      color: white;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #191B28;
+      border-radius: 5px;
+      background-color: #65268F;
+      margin-bottom: 10px;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <button class="C">C</button>
+    <div class="buttons">
+      <button class="num">1</button>
+      <button class="num">2</button>
+      <button class="num">3</button>
+      <button class="equa">/</button>
+      <button class="num">4</button>
+      <button class="num">5</button>
+      <button class="num">6</button>
+      <button class="equa">-</button>
+      <button class="num">7</button>
+      <button class="num">8</button>
+      <button class="num">9</button>
+      <button class="equa">+</button>
+      <button class="num">.</button>
+      <button class="num">0</button>
+      <button class="Equal">=</button>
+      <button class="equa">*</button>
+
+    </div>
+</body>
+</html>
